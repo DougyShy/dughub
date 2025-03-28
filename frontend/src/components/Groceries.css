@@ -1,0 +1,23 @@
+.groceries__wrapper {
+  display: flex; /* Use flexbox to arrange children horizontally */
+  width: 100%; /* Ensure it takes up full width of the parent container */
+}
+
+.groceries__options {
+  display: flex; /* Flex display for the groceries options */
+  flex-direction: column;
+  flex: 0 0 20%; /* Takes 25% of the container width */
+  justify-content: left; /* Optional: center content horizontally */
+  align-items: left; /* Optional: center content vertically */
+  /*background-color: #f0f0f0; /* Optional: add a background color for clarity */
+  padding: 20px; /* Optional: add some padding */
+}
+
+.groceries__user__list {
+  display: flex; /* Flex display for the groceries wrapper */
+  flex-direction: column;
+  flex: 0 0 80%; /* Takes 75% of the container width */
+  justify-content: flex-start; /* Optional: center content horizontally */
+  align-items: center; /* Optional: center content vertically */
+  padding: 20px; /* Optional: add some padding */
+}
